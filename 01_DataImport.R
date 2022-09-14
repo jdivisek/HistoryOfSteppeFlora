@@ -9,7 +9,7 @@ library(RSAGA)
 library(parallel)
 library(pbapply)
 
-###LOAD SPECIES OCCURENCE DATA------------------------------------------------------------------------------
+###LOAD SPECIES OCCURRENCE DATA------------------------------------------------------------------------------
 spe.coord <- read.delim("spe.coord.txt", header=T)
 colnames(spe.coord)[2:3] <- c("X", "Y")
 
